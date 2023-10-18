@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <title>Document</title>
+      <!-- CSS -->
+      <link rel="stylesheet" href="../css/app.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+      <!-- FONTAWESOME -->
+      <script src="https://kit.fontawesome.com/50ca9e2b0b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><h1>MAGIC SHOP</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link boton-carrito" href="./carrito.html"> <i class="bi bi-bag-fill"></i> Carrito <span id= "numero-carrito"class="numero-carrito">0</span></a>
+                <i></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="carrito">
+        <h2 class="subtitulo">Carrito</h2>
+
+        <div id="carrito-productos"></div>
+
+        <div class="carrito-acciones">
+          <div class="carrito-acciones-izquierda">
+            <button id="vaciar-carrito">Vaciar carrito</button>
+          </div>
+          <div class="carrito-acciones-derecha">
+            <div class="carrito-acciones-total">
+              <p>Total:</p>
+              <p id="total-precio">$0</p>
+            </div>
+            <button id="finalizar-compra-button" class="carrito-acciones-comprar">Finalizar compra</button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="../JS/carrito.js"></script>
+  </body>
+</html>

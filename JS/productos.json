@@ -1,0 +1,12 @@
+[
+    {"id":"elixir-01", "nombre": "Elixir de Mana", "precio": 2000, "img":"../../images/elixirmana.jpg"},
+    {"id":"elixir-02", "nombre": "Elixir de Poder", "precio": 2000, "img":"../../images/elixirpoder.jpg"},
+    {"id":"elixir-03", "nombre": "Elixir de Curacion", "precio": 2000, "img":"../../images/elixircuracion.jpg"},
+    {"id":"elixir-04", "nombre": "Elixir de Invisibilidad", "precio": 2000, "img":"../../images/elixirinvisible.jpg"},
+    {"id":"elixir-05", "nombre": "Elixir Completo", "precio": 2000, "img":"../../images/elixircompleto.jpg"},
+    {"id":"Varita-01", "nombre": "Varita Dragon", "precio": 2000, "img":"../../images/varitadragon.jpg"},
+    {"id":"Varita-02", "nombre": "Varita Unicornio", "precio": 2000, "img":"../../images/varitaunicornio.jpg"},
+    {"id":"Varita-03", "nombre": "Varita Fenix", "precio": 2000, "img":"../../images/varitafenix.jpg"},
+    {"id":"Varita-04", "nombre": "Varita Estrella", "precio": 2000, "img":"../../images/varitaestrella.jpg"},
+    {"id":"Varita-05", "nombre": "Varita Prohibida", "precio": 2000, "img":"../../images/varitaprohibida.jpg"}
+]
